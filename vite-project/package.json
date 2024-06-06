@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "vite serve --port $PORT"
+    "start": "npm install && vite serve --port $PORT"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
